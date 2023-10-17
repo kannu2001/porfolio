@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body{
+      background-image: url(bg12);
+    }
+    table {
+      border-collapse: collapse;
+      border-radius: 5px;
+      width: 100%;
+      background: transparent;
+      color: white;
+
+    }
+    
+    th, td {
+      border: 2px solid white;
+      padding: 8px;
+      color: white;
+
+    }
+    
+    th {
+      background-color: transparent;
+      color: white;
+    }
+
+   
+    
+    .my-form h2 {
+      text-align: center;
+      background:transparent;
+      border: 2px solid white;
+      border-radius: 5px ;
+      color: white;
+    }
+
+    .kannu table {
+      margin-top: 20px;
+      width: 100%;
+      color: white;
+      
+    }
+    .kannu label{
+      color: white;
+    }
+    
+    .kannu table th {
+      text-align: left;
+      text-align: center;
+    }
+    .kannu{
+          width: 100%;
+          padding: 10px;
+          font-size: 20px;
+          border-radius: 5px;
+          border: 1px solid white;
+          text-align: center;
+          font-weight: bold;
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <div class="my-form">
+    <h2>Order Form</h2>
+    <form>
+    <div class="kannu">
+      <label for="name">Name:</label>
+      <input type="text" placeholder="enter name"> <br>
+      
+      <label for="address"> Billing Address:</label>
+      <input type="text" placeholder="enter Billing address"><br>
+      <label for="address">Delivery Address:</label>
+      <input type="text" placeholder="enter Delivery address"> <br>
+    
+      <label for="telephone">Telephone:</label> 
+      <input type="number" placeholder=" enter mobile number" required><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" placeholder="enter email address" required><br>
+      <label for="text">Payment Method:</label>
+        <select style="text-size-adjust: 20px;"> 
+                <option>ONLINE/CARD</option>
+                <option>CASH</option>
+        </select>
+        <a href="sacnner.jpg" style="color: white;"> QR HERE</a> <br>
+        <a href="card details.html" style="color: white;"> CREDIT CARD</a>
+        
+ 
+    
+    </div>
+    
+    
+      
+      <table>
+        <h2>Order details</h2>
+            
+        <tr>
+          <th>Product Name</th>
+          <th>Product Number</th>
+          <th>Price (R)</th>
+          <th>Quantity</th>
+        </tr>
+        <tr>
+          <td>The EconoBox</td>
+          <td>1</td>
+          <td>R5</td>
+          <td><input type="text"  value="0"></td>
+        </tr>
+        <tr>
+          <td>The Standard Box</td>
+          <td>2</td>
+          <td>R10</td>
+          <td><input type="text"  value="0"></td>
+        </tr>
+        <tr>
+          <td>The Premium Box</td>
+          <td>3</td>
+          <td>R15</td>
+          <td><input type="text" value="0"></td>
+        </tr>
+        <tr>
+          <td>The Deluxe Box</td>
+          <td>4</td>
+          <td>R20</td>
+          <td><input type="text" value="0"></td>
+        </tr>
+        <tr>
+          <td>The Super Deluxe Box</td>
+          <td>5</td>
+          <td>R30</td>
+          <td><input type="text" value="0"></td>
+        </tr> 
+        
+      
+          
+        </table>
+        <center>
+            <input type="reset">
+            <input type="submit">
+        </center>
+    </form> 
+   
+</body>

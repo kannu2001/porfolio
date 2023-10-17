@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Card Details</title>
+  <style>
+    .card {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      background-image: url(bg.jpg);
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      color: white;
+    }
+    
+    .card h2 {
+      text-align: center;
+    }
+    
+    .KANNU {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      display: block;
+      font-weight: bold;
+    }
+    
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      border-radius: 4px;
+      border: 2px solid #ccc;
+      
+    }
+    
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: transparent;
+      color: white;
+      border: 1 solid white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Card Details</h2>
+    <form>
+      <div class="KANNU">
+        <label for="card-number">Card Number</label>
+        <input type="text" id="card-number" name="card-number" placeholder="Enter card number" required>
+      </div>
+      <div class="KANNU">
+        <label for="expiry-date">Expiry Date</label>
+        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+      </div>
+      <div class="KANNU">
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
+      </div>
+      <div class="KANNU">
+        <label for="name">Cardholder Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter cardholder name" required>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
